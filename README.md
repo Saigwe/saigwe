@@ -2,7 +2,7 @@
 
 Analytics engineer and data leader based in Lisbon, with 9+ years building trusted data products across enterprise, consulting and B2B technology (Bose, McKinsey, PwC). I design data models and pipelines, set the metric definitions teams agree on, and increasingly apply AI to data work, always grounded in governed, tested data.
 
-**Core stack:** SQL · dbt · Snowflake · BigQuery · Python · PySpark · Airflow · Kafka · Power BI · Tableau · Claude API
+**Core stack:** SQL · dbt · Snowflake · BigQuery · Python · PySpark · Dagster · Airflow · Kafka · Terraform · Docker · Kubernetes · Power BI · Tableau · Claude API
 
 **Portfolio:** [saigwe.github.io](https://saigwe.github.io): 34 projects, each with the numbers, tests and design choices, plus two [case studies](https://saigwe.github.io/case-studies.html) from client work.
 
@@ -25,6 +25,11 @@ Every project runs end to end with tests and CI. Each README says which data is 
 | [dbt-trust-tests](https://github.com/Saigwe/dbt-trust-tests) | A versioned dbt package of reconciliation, answer-key, SCD2, point-in-time and privacy tests, used by other projects |
 | [Data Platform Cost & Reliability Monitor](https://github.com/Saigwe/platform-cost-observability) | Real CI history, warehouse cost spikes and connector incidents, with a daily digest |
 | [Data Discovery & Governance](https://github.com/Saigwe/data-discovery-governance) | Profiles PostgreSQL, MongoDB and JSON; finds keys and cross-system links, classifies PII, scores data confidence |
+| [Ingestion & Orchestration](https://github.com/Saigwe/ingestion-orchestration) | CDC including deletes, a flaky API with retries and reverse ETL to the CRM, orchestrated hourly in Dagster |
+| [Platform as Code](https://github.com/Saigwe/platform-as-code) | Snowflake in Terraform with a spending cap on every warehouse, a dbt image, Kubernetes CronJobs and policy checks in CI |
+| [Data Contracts & Observability](https://github.com/Saigwe/data-contracts-observability) | Contracts, anomaly checks and lineage impact analysis that hold only the dashboards an incident affects |
+| [Data Governance & Privacy](https://github.com/Saigwe/data-governance-privacy) | PII discovery, role-based masking views and an audited GDPR erasure workflow |
+| [Warehouse FinOps](https://github.com/Saigwe/warehouse-finops) | Finds 52% savings on a Snowflake bill ($104k a year) and explains them in an executive memo |
 
 ### AI applied to data
 
@@ -56,6 +61,8 @@ Every project runs end to end with tests and CI. Each README says which data is 
 | [Ops Root-Cause Analysis](https://github.com/Saigwe/ops-root-cause-analysis) | Pinpoints an SLA drop to one site, queue and staffing change, sizes the effect and recommends a fix |
 | [SPC Control Charts](https://github.com/Saigwe/spc-control-charts) | XmR charts with NHS Making Data Count rules, plus variation and assurance icons |
 | [Product Usage, Retention & Experiments](https://github.com/Saigwe/product-analytics-experiments) | Product metrics defined once and an A/B toolkit validated on real visitors |
+| [Experimentation Platform](https://github.com/Saigwe/experimentation-platform) | A/B readouts with SRM checks, CUPED and guardrails; ships a +6.0% winner and refuses a broken test |
+| [Forecasting & Scenario Planning](https://github.com/Saigwe/forecasting-scenario-planning) | Backtested forecasts turned into hiring and cross-training decisions |
 | [Telecom Churn Feature Store](https://github.com/Saigwe/telecom-churn-feature-store) | Point-in-time features with training and serving proven identical |
 | [People & Training Analytics](https://github.com/Saigwe/people-training-analytics) | Training cost per head, a competency-gap matrix and attrition by training, with a live report |
 | [Device Fleet Reliability](https://github.com/Saigwe/device-fleet-reliability) | Failure rates and survival curves on 30.6M real drive-days |

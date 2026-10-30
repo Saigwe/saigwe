@@ -4,7 +4,7 @@ Analytics engineer and data leader based in Lisbon, with 9+ years building trust
 
 **Core stack:** SQL · dbt · Snowflake · BigQuery · Python · PySpark · Dagster · Airflow · Kafka · Terraform · Docker · Kubernetes · Power BI · Tableau · Claude API
 
-**Portfolio:** [saigwe.github.io](https://saigwe.github.io): 34 projects, each with the numbers, tests and design choices, plus two [case studies](https://saigwe.github.io/case-studies.html) from client work.
+**Portfolio:** [saigwe.github.io](https://saigwe.github.io): 41 projects, each with the numbers, tests and design choices, plus two [case studies](https://saigwe.github.io/case-studies.html) from client work.
 
 ## Featured projects
 

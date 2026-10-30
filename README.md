@@ -4,7 +4,7 @@ Analytics engineer and data leader based in Lisbon, with 9+ years building trust
 
 **Core stack:** SQL · dbt · Snowflake · BigQuery · Python · PySpark · Airflow · Kafka · Power BI · Tableau · Claude API
 
-**Portfolio:** [saigwe.github.io](https://saigwe.github.io): 32 projects, each with the numbers, tests and design choices.
+**Portfolio:** [saigwe.github.io](https://saigwe.github.io): 34 projects, each with the numbers, tests and design choices, plus two [case studies](https://saigwe.github.io/case-studies.html) from client work.
 
 ## Featured projects
 
@@ -20,6 +20,7 @@ Every project runs end to end with tests and CI. Each README says which data is 
 | [Retail Enterprise Warehouse](https://github.com/Saigwe/retail-enterprise-warehouse) | 9.3M real Iowa sales lines in one Kimball warehouse: five business units on shared KPIs, within 0.12% of the regulator's total |
 | [Health Claims & Pre-Authorisation Warehouse](https://github.com/Saigwe/health-claims-warehouse) | Kimball claims warehouse with SCD2 members, a pre-auth accumulating snapshot and masking enforced by tests |
 | [UK Markets & Macro Lakehouse](https://github.com/Saigwe/uk-markets-lakehouse) | Every release of UK monthly GDP on Iceberg with write-audit-publish and time travel |
+| [Real-Time Payments Anomaly Stream](https://github.com/Saigwe/payments-anomaly-stream) | 284,807 real card transactions replayed with late and duplicate delivery; trained on day 1, catches 85.8% of day-2 fraud |
 | [Real-Time Device Telemetry Stream](https://github.com/Saigwe/device-telemetry-streaming) | 30.7M events through Kafka with event-time windows, a watermark and a late-data output, reconciled to batch |
 | [dbt-trust-tests](https://github.com/Saigwe/dbt-trust-tests) | A versioned dbt package of reconciliation, answer-key, SCD2, point-in-time and privacy tests, used by other projects |
 | [Data Platform Cost & Reliability Monitor](https://github.com/Saigwe/platform-cost-observability) | Real CI history, warehouse cost spikes and connector incidents, with a daily digest |
@@ -51,6 +52,7 @@ Every project runs end to end with tests and CI. Each README says which data is 
 
 | Project | What it shows |
 |---|---|
+| [Marketing Mix Model & Attribution](https://github.com/Saigwe/marketing-mix-attribution) | Seven attribution models on Google's real GA4 sample, and a marketing mix model scored against known truth |
 | [Ops Root-Cause Analysis](https://github.com/Saigwe/ops-root-cause-analysis) | Pinpoints an SLA drop to one site, queue and staffing change, sizes the effect and recommends a fix |
 | [SPC Control Charts](https://github.com/Saigwe/spc-control-charts) | XmR charts with NHS Making Data Count rules, plus variation and assurance icons |
 | [Product Usage, Retention & Experiments](https://github.com/Saigwe/product-analytics-experiments) | Product metrics defined once and an A/B toolkit validated on real visitors |
